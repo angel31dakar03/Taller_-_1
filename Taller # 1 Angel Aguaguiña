@@ -24,3 +24,12 @@ public class ProgramaAritmetico {
             System.out.print("Pregunta " + (i + 1) + ": ");
             System.out.print("¿Cuánto es " + numero1 + " por " + numero2 + "? ");
             int respuestaUsuario = scanner.nextInt();
+
+            if (respuestaUsuario == respuestaCorrecta) {
+                System.out.println("¡Muy bien!");
+                puntaje++;
+            } else {
+                System.out.println("Incorrecto. La respuesta correcta es " + respuestaCorrecta);
+            }
+        }
+
