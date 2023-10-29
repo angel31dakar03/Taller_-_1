@@ -6,3 +6,9 @@ public class ProgramaAritmetico {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         
+        int nivelDificultad;
+        int puntaje = 0;
+        int numPreguntas = 5; // Puedes ajustar el número de preguntas
+
+        System.out.println("Bienvenido al programa de matemáticas!");
+
