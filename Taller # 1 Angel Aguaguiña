@@ -16,3 +16,11 @@ public class ProgramaAritmetico {
         System.out.println("Elige el nivel de dificultad (1, 2, o 3): ");
         nivelDificultad = scanner.nextInt();
 
+        for (int i = 0; i < numPreguntas; i++) {
+            int numero1 = random.nextInt((int) Math.pow(10, nivelDificultad));
+            int numero2 = random.nextInt((int) Math.pow(10, nivelDificultad));
+            int respuestaCorrecta = numero1 * numero2;
+
+            System.out.print("Pregunta " + (i + 1) + ": ");
+            System.out.print("¿Cuánto es " + numero1 + " por " + numero2 + "? ");
+            int respuestaUsuario = scanner.nextInt();
