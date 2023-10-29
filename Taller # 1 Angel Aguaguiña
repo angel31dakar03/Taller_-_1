@@ -33,3 +33,7 @@ public class ProgramaAritmetico {
             }
         }
 
+        System.out.println("Tu puntaje final es: " + puntaje + " de " + numPreguntas);
+        scanner.close();
+    }
+}
