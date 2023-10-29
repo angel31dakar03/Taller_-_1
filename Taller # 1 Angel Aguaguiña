@@ -12,3 +12,7 @@ public class ProgramaAritmetico {
 
         System.out.println("Bienvenido al programa de matemáticas!");
 
+        // Pide al usuario que elija el nivel de dificultad
+        System.out.println("Elige el nivel de dificultad (1, 2, o 3): ");
+        nivelDificultad = scanner.nextInt();
+
